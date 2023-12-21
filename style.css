@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.time-block {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.hour {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.event {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px;
+}
+
+.past {
+    background-color: #d3d3d3;
+}
+
+.present {
+    background-color: #ff6961;
+}
+
+.future {
+    background-color: #77dd77;
+}
+
+.saveBtn {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
